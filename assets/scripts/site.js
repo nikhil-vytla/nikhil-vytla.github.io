@@ -25,23 +25,11 @@ $('.social-link').hover(
     if (getLink == 'twitter') {
       $('.social-url ul').css('top', '0');
     } else if (getLink == 'instagram') {
-      $('.social-url ul').css('top', '0');
-    }
-  }, function() {
-    $('.social-url ul').css('opacity', '0');
-  }
-);
-
-// Header link logic 2
-
-$('.social-link-2').hover(
-  function() {
-    var getLink = $(this).data('platform');
-    $('.social-url ul').css('opacity', '1');
-    if (getLink == 'linkedin') {
+      $('.social-url ul').css('top', '-24px');
+    } else if (getLink == 'linkedin') {
       $('.social-url ul').css('top', '0');
     } else if (getLink == 'github') {
-      $('.social-url ul').css('top', '0');
+      $('.social-url ul').css('top', '-24px');
     }
   }, function() {
     $('.social-url ul').css('opacity', '0');

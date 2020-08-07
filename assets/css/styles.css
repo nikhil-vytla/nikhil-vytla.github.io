@@ -118,7 +118,7 @@ h1.name {
 }
 
 .lead {
-	font-size: 44px;
+	font-size: 40px;
 	font-weight: 300;
 	margin-top: 25px;
 	line-height: 55px;
@@ -138,11 +138,11 @@ h1.name {
 .section-title {
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .list-card {
-	margin: 30px 0;
+	margin: 15px 0;
 }
 
 .list-card .exp , .list-card div{
@@ -166,13 +166,14 @@ h1.name {
 	font-weight: 600;
 	color: #5B6A9A;
 	line-height: 26px;
-	margin-bottom: 8px;
+	margin-bottom: px;
 }
 
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
 	line-height: 22px;
+	margin-bottom: 0px;
 }
 
 /*skill and interests ends*/
@@ -191,7 +192,7 @@ h1.name {
 	height: 200px;
 	background-color: #EEF0F7;
 	display: inline-block;
-	margin: 7px 5px;
+	margin: 20px 5px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
@@ -213,7 +214,7 @@ h1.name {
 }
 
 .skill-level span {
-	font-size: 30px;
+	font-size: 60px;
 	font-weight: 300;
 	color: #5B6A9A;
 	vertical-align: top;
@@ -233,15 +234,15 @@ h1.name {
 	display: inline-block;
 	max-width: 300px;
 	text-align: left;
-	margin-top: 15px;
+	/* margin-top: 15px; */
 	margin-left: 15px;
 }
 
 .skill-meta h3 {
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 800;
 	color: #5B6A9A;
-	margin-bottom: 5px;
+	/* margin-bottom: 5px; */
 }
 
 .skill-meta span{

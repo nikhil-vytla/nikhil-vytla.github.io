@@ -25,7 +25,7 @@ $('.social-link').hover(
     if (getLink == 'twitter') {
       $('.social-url ul').css('top', '0');
     } else if (getLink == 'instagram') {
-      $('.social-url ul').css('top', '-24px');
+      $('.social-url ul').css('top', '0');
     }
   }, function() {
     $('.social-url ul').css('opacity', '0');
@@ -41,7 +41,7 @@ $('.social-link-2').hover(
     if (getLink == 'linkedin') {
       $('.social-url ul').css('top', '0');
     } else if (getLink == 'github') {
-      $('.social-url ul').css('top', '-24px');
+      $('.social-url ul').css('top', '0');
     }
   }, function() {
     $('.social-url ul').css('opacity', '0');

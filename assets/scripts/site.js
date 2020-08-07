@@ -1,26 +1,3 @@
-// Dribbble shots
-var accessToken = '740843bcd9fbc5ff08f6b60f0f64f3b3a4f4aff2e28e1e9c46beeed722fbc20c';
-$.ajax({
-    url: 'https://api.dribbble.com/v2/user/shots?access_token='+accessToken,
-    dataType: 'json',
-    type: 'GET',
-    success: function(data) {
-      if (data.length > 0) {
-        $.each(data.reverse(), function(i, val) {
-          if (i > 7) {
-            var readableDate = new Date(val.published_at);
-            var formatDate = readableDate.toDateString().split(" ");
-            var month = formatDate[1];
-            var year = formatDate[3];
-            $('#dribbble-shots').prepend(
-              '<div class="dribbble-shot"><a target="_blank" href="'+ val.html_url +'" title="' + val.title + '"><img src="'+ val.images.hidpi +'"/></a><div><h4><a target="_blank" href="'+ val.html_url +'" title="' + val.title + '">' + val.title + '</a></h4><p>' + month + ' ' + year + '</p></div></div>'
-              )
-          }
-        })
-      }
-    }
-});
-
 // Header styling
 
 function updateHeader() {

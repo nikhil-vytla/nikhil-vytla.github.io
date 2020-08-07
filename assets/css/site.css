@@ -9776,6 +9776,17 @@
   .social-link:hover svg path {
     opacity: 1;
   }
+
+  .social-link-2 svg path {
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-link-2:hover svg path {
+    opacity: 1;
+  }
   
   .js-header-content.text-pinkLight svg path {
     fill: #FCD6E9;

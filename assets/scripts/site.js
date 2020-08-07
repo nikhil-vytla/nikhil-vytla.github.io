@@ -26,10 +26,6 @@ $('.social-link').hover(
       $('.social-url ul').css('top', '0');
     } else if (getLink == 'instagram') {
       $('.social-url ul').css('top', '-24px');
-    } else if (getLink == 'linkedin') {
-      $('.social-url ul').css('top', '-48px');
-    } else if (getLink == 'github') {
-      $('.social-url ul').css('top', '-72px');
     }
   }, function() {
     $('.social-url ul').css('opacity', '0');

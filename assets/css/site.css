@@ -9853,7 +9853,7 @@
     text-align: right;
     color: #fff;
     opacity: 0.5;
-    left: -127px;
+    left: -127px; /* custom styling adjustment */
     height: 24px;
   }
   

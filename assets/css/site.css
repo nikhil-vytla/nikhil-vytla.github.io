@@ -9853,7 +9853,7 @@
     text-align: right;
     color: #fff;
     opacity: 0.5;
-    left: -127px; /* custom styling adjustment */
+    left: -112px; /* custom styling adjustment */
     height: 24px;
   }
   
@@ -9866,7 +9866,7 @@
   }
 
   .social-url-2 {
-    position: relative;
+    position: absolute;
     overflow: hidden;
     text-align: right;
     color: #fff;

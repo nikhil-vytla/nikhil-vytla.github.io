@@ -9853,7 +9853,7 @@
     text-align: right;
     color: #fff;
     opacity: 0.5;
-    left: -105px; /* custom styling adjustment */
+    left: -85px; /* custom styling adjustment */
     height: 24px;
   }
   
@@ -9871,7 +9871,7 @@
     text-align: right;
     color: #fff;
     opacity: 0.5;
-    left: -100px;
+    left: -70px; /* custom styling adjustment */
     height: 24px;
   }
   

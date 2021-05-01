@@ -9866,7 +9866,7 @@
   }
 
   .social-url-2 {
-    position: absolute;
+    position: relative;
     overflow: hidden;
     text-align: right;
     color: #fff;

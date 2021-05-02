@@ -126,7 +126,7 @@ h1.name {
 
 /*hero ends*/
 
-/*skills & intrests*/
+/*skills & interests*/
 
 .sections {
 	vertical-align: top;
@@ -176,7 +176,7 @@ h1.name {
 	margin-bottom: 0px;
 }
 
-/*skill and interests ends*/
+/*skills & interests ends*/
 
 /* Achievements */
 
@@ -406,7 +406,6 @@ li .description {
 	}
 }
 
-
 @media(max-width: 425px) {
 	h1.name {
 		font-size: 40px;
@@ -443,7 +442,7 @@ li .description {
 	footer {
 		margin-top: 2050px;
 	}
-	}
+}
 
 
 /* End of all :P*/

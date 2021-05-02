@@ -4,13 +4,15 @@ function updateHeader() {
   var scrollVal = $(document).scrollTop();
   $(".js-section").each(function() {
     var offset = ($(this).position().top) - 100;
-    var colour = $(this).data("colour");
+    var color = $(this).data("color");
     if(scrollVal >= offset) {
       $('.js-header-content').removeClass('text-pinkLight text-purpleLight text-yellowLight text-greenLight');
-      $('.js-header-content').addClass(colour);
+      $('.js-header-content').addClass(color);
     }
   });
 }
+
+// TODO: update scrollbar color while scrolling!
 
 $(document).scroll(function() {
   updateHeader();

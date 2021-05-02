@@ -9804,6 +9804,8 @@
     fill: #D1FFFC;
   }
   
+  /* Project highlights */
+
   #dribbble-shots {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
@@ -9847,6 +9849,8 @@
     opacity: 0.5;
   }
   
+  /* Social URLs */
+
   .social-url {
     position: absolute;
     overflow: hidden;
@@ -9881,6 +9885,27 @@
     transition-property: all;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Custom scrollbar */
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
   }
   
   @media (min-width: 640px) {

@@ -9806,12 +9806,12 @@
   
   /* Project highlights */
 
-  #dribbble-shots {
+  #project-shots {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
   }
   
-  .dribbble-shot {
+  .project-shot {
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -9819,12 +9819,12 @@
   }
   
   @media (min-width: 768px) {
-    .dribbble-shot {
+    .project-shot {
       width: 50%;
     }
   }
   
-  .dribbble-shot img {
+  .project-shot img {
     transition-property: transform;
     transition-duration: 300ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -9832,15 +9832,15 @@
     transform: scale(1);
   }
   
-  .dribbble-shot:hover img {
+  .project-shot:hover img {
     transform: scale(1.05);
   }
   
-  .dribbble-shot h4 {
+  .project-shot h4 {
     margin-top: 1rem;
   }
   
-  .dribbble-shot p {
+  .project-shot p {
     margin: 0;
     margin-top: 0.25rem;
     line-height: 1.5;

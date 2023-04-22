@@ -9795,6 +9795,10 @@
   .js-header-content.text-purpleLight svg path {
     fill: #E2D5FE;
   }
+
+  .js-header-content.text-blue-300 svg path {
+    color: #90CDF4;
+  }
   
   .js-header-content.text-yellowLight svg path {
     fill: #FBF4D3;

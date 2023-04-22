@@ -6,7 +6,7 @@ function updateHeader() {
     var offset = ($(this).position().top) - 100;
     var color = $(this).data("color");
     if(scrollVal >= offset) {
-      $('.js-header-content').removeClass('text-pinkLight text-purpleLight text-yellowLight text-greenLight');
+      $('.js-header-content').removeClass('text-pinkLight text-purpleLight text-blue-300 text-yellowLight text-greenLight');
       $('.js-header-content').addClass(color);
     }
   });

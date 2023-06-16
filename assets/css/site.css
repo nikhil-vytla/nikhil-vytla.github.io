@@ -6213,6 +6213,10 @@
   .text-green {
     color: #2DDDD2;
   }
+
+  .text-coral {
+    color: #FF7F50;
+  }
   
   .text-teal-100 {
     color: #e6fffa;
@@ -6344,6 +6348,10 @@
   
   .text-greenLight {
     color: #D1FFFC;
+  }
+
+  .text-coralLight {
+    color: #FFD9C4;
   }
   
   .text-darkGrey {

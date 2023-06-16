@@ -20,3 +20,5 @@ jobs:
 
       - name: Deploy preview to GitHub Pages
         uses: rossjrw/pr-preview-action@v1
+        with:
+          preview-branch: main

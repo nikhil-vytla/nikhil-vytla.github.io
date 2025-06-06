@@ -1,2 +1,2 @@
 # My personal website
-Welcome to my personal website! Last updated: Apr 2025.
+Welcome to my personal website! Last updated: Jun 2025.
